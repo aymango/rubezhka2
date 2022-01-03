@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  @media (min-width: 800px) {
+    .top-side {
+      display: flex;
+      align-items: stretch;
+      flex-direction: row;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(58, 58, 66);
+  }
+
+a:hover {
+    color: white;
+    }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(183, 247, 252);
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.user img{
+height: 50px;
+width: 50px;
+}
+
+button {
+  background-color: #4ca3af;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+body {
+        background-repeat: initial;
+        background-size: 50%;
+        background-position: left;
+    }
+
+.main{
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.block2 img{
+    height: 500px;
+    width: 800px;        
+}
+
+.block1{
+    text-align: left;
+    display: flex;
+}
+
+.block2{
+    justify-content: space-around;
+    display: flex;
+}
+
+.pluses {
+    background-color: darkolivegreen;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    border-radius: 60px;
+}   
+.pluses img {
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+}   
+
+.team {
+  background-color:darkolivegreen;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  border-radius: 60px;
+}   
+
+.team img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}   
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(187, 247, 242);
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo1 img {
+  height: 60px;
+    width: 60px;
+}
