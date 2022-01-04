@@ -29,9 +29,29 @@ a:hover {
 }
 
 
-.user img{
-height: 50px;
-width: 50px;
+.main img{
+  
+  width: 757px;
+  height: 947px;
+}
+
+.block img{
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+
+.block2 img{
+position: absolute;
+width: 470px;
+height: 200px;
+left: 15px;
+top: calc(50% - 200px/2);
+}
+
+.navbar {
+text-align: right;
 }
 
 button {
@@ -55,56 +75,9 @@ body {
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.block2 img{
-    height: 500px;
-    width: 800px;        
-}
-
-.block1{
-    text-align: left;
-    display: flex;
-}
-
-.block2{
-    justify-content: space-around;
-    display: flex;
-}
-
-.pluses {
-    background-color: darkolivegreen;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    border-radius: 60px;
-}   
-.pluses img {
-  height: 300px;
-  width: 300px;
-  border-radius: 100%;
-}   
-
-.team {
-  background-color:darkolivegreen;
-  justify-content: space-around;
-  display: flex;
-  flex-direction: row;
-  border-radius: 60px;
-}   
-
-.team img {
-    height: 200px;
-    width: 200px;
-    border-radius: 100%;
-}   
-
 footer {
   display: flex;
   justify-content: space-around;
   background-color: rgb(187, 247, 242);
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.logo1 img {
-  height: 60px;
-    width: 60px;
 }
